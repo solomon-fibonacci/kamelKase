@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://rumblelabs.com/ -->
+<html class="no-js wf-adelle-n7-active wf-ffdinweb-n4-active wf-ffdinweb-n7-active wf-adelle-n3-active wf-active">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta content="text/html;" http-equiv="content-type">
+    <title>kamelKase</title>
+    <meta content="index,follow" name="robots">
+    <meta content="initial-scale=1.0 maximum-scale=1.0 user-scalable=no" name="viewport">
+    <meta content="width=380, maximum-scale=1.0" name="viewport">
+    <link href="" rel="shortcut icon" type="image/x-icon">
+    <link href="kamelKase/index.html" rel="canonical">
+    <!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+    <link href="kamelKase/main.css" rel="stylesheet" type="text/css">
+    <!--[if IE 9]>
+      <link href="css/ie9-75e83be3.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <!-- OG -->
+    
+    <link href="override.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body>
+    <header class="container onscroll clearfix" id="site-header">
+      <h1 class="logo">
+        <a class="logo-link active" href="index.html">kamelKase</a>
+      </h1>
+      <nav class="main-nav nav-links">
+        <a class="" href="index.html#about-us">About Us</a>
+        -
+        <a class="" href="index.html#our-product">Our Products</a>
+        -
+        <a class="" href="index.html#our-service">Our Services</a>
+      </nav>      <div class="main-nav-cta nav-links">
+        <a class="cool-font hover-button" href="contact-us.html">Contact us <span class="icon-right-arrow"></span></a>
+      </div>
+      <div id="burger"></div>
+      <nav id="mobile-nav">
+        <a class="logo-link active" href="index.html">kamelKase</a>
+        <a class="" href="#">About Us</a>
+        <a class="" href="#">Our Products</a>
+        <a class="" href="#">Our Services</a>
+        <a class="" id="nav-work-with-us" href="#">Contact us</a>
+        <p id="hide-nav">
+          <span class="icon-right-arrow rotate180"></span>
+          &nbsp;Hide Menu
+        </p>
+      </nav>
+    </header>
+    
+    <div class="photo-grid clearfix">
+      <div class="photo-grid-intro" style="margin-top: 60px;">
+        <h1>Contact Us</h1>
+      </div> 
+    </div>
+
+
+    <div class="container home-about clearfix">
+      <div class="four-col-content four-col-1">
+        <form class="form">
+          <input type="text" placeholder="Your Email here" class="form-field">
+          <input type="text" placeholder="Title" class="form-field">
+          <textarea class="form-field"></textarea>
+          <button class="button mail" type="button">Send</button>
+        </form>
+      </div>
+
+      <div class="two-col-content two-col-1 cool-font" style="margin-left: 200px;">
+        Tailor our product to satisfy our client
+        We create highly functional applications for the web with modern technologies and open-source tools using an iteratative, agile methodology.
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div class="contact-offices clearfix">
+        <div class="office office-belfast clearfix">
+          <div class="belfast" style="background:url(office-icon.jpeg); background-size:cover"></div>
+          <div class="office-info cool-font">
+            <h4>kamelKase</h4>
+            <div class="address">
+              <span class="street-address">46 Hill St,</span>
+              <span class="locality">Belfast,</span>
+              <span class="postal-code">BT1 2LB</span>
+            </div>
+            <span class="phone-title">Call:</span>
+            <span class="phone-number">
+              <a href="tel:+44%2028%209568%200011">+44 (0) 28 9568 0011</a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4 class="text-margin cool-font">On the Web</h4>
+        <ul>
+          <!-- %li -->
+          <!-- = link_to  "Jobs", "/jobs/" -->
+          <li class="override-icon">
+            <a><img src="twitter1.gif" width="60px"></a>
+          </li>
+          <li class="override-icon">
+            <a><img src="facebook.png" width="60px"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script async="" src="kamelKase/analytics.js"></script><script src="kamelKase/smoothscroll.min-d54db307.js" type="text/javascript"></script>
+    <script>
+      window.addEventListener('load', function() {
+        var header = document.getElementById("site-header");
+        var noScrollClassname = header.className;
+        scrollHeader();
+      
+        window.addEventListener('scroll', function() {
+          scrollHeader();
+        }, false);
+      
+        function scrollHeader() {
+          var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+          header.className = (scrollTop > 60) ? noScrollClassname + " onscroll" : noScrollClassname;
+        }
+      
+        var menu = document.getElementById('menu-button');
+        var menu_items = document.getElementById('menu-items');
+      
+        if (menu) {
+          menu.addEventListener('click', function() {
+            menu_items.style.display = (menu_items.style.display == "block") ? 'none' : 'block';
+          }, false);
+        }
+      
+        var burger = document.getElementById('burger');
+        var mobile_nav = document.getElementById('mobile-nav');
+        var hide_nav = document.getElementById('hide-nav');
+        var nav_work_with_us = document.getElementById('nav-work-with-us');
+      
+        if (burger) {
+          burger.addEventListener('click', function() {
+            mobile_nav.style.display = 'block';
+          }, false);
+        }
+      
+        if (hide_nav) {
+          hide_nav.addEventListener('click', function() {
+            mobile_nav.style.display = 'none';
+          }, false);
+        }
+      
+        if (nav_work_with_us) {
+          nav_work_with_us.addEventListener('click', function() {
+            mobile_nav.style.display = 'none';
+          }, false);
+        }
+      
+        smoothScroll.init();
+      }, false);
+      
+      if(document.getElementById('articleContent')){
+        var blogChildren = document.getElementById('articleContent').children;
+        for(var i=0; i<blogChildren.length; i++) {
+          var child = blogChildren[i]
+          if(child.children.length > 0){
+            for(var j=0; j<child.children.length; j++) {
+              if(child.children[j].nodeName == 'IMG'){
+                child.outerHTML = child.innerHTML
+              }
+            }
+          }
+        }
+      }
+      
+      if(document.getElementById('blog-index')){
+        function resetLinks(links) {
+          for(var i=0; i<links.length; i++){
+            links[i].className = links[i].className.replace(' active', '');
+          }
+        }
+        var links = document.getElementsByClassName('filter-link');
+        for(var i=0; i<links.length; i++) {
+          links[i].addEventListener('click', function(evt) {
+            evt.preventDefault();
+            if(evt.target.className.indexOf('active') != -1){
+              filterPosts('all');
+              resetLinks(links);
+            } else {
+              filterPosts(evt.target.id.replace('tagger-',''));
+              resetLinks(links);
+              evt.target.className += ' active';
+            }
+          }, false);
+        }
+      }
+      
+      function filterPosts(category) {
+        var posts = document.getElementsByClassName('blog-index-post');
+        for(var i=0; i<posts.length; i++) {
+          if(posts[i].className.indexOf('tag-' + category) != -1 || category == 'all'){
+            posts[i].style.display = 'block';
+          } else {
+            posts[i].style.display = 'none';
+          }
+        }
+        return false
+      }
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', 'UA-7429159-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <!-- Typekit -->
+    <script src="kamelKase/kzb5xan.js" type="text/javascript"></script>
+    <script>
+      try{Typekit.load();}catch(e){};
+    </script>
+    <script src="jquery-1.11.1.js"></script>
+    <script src="mail.js"></script>
+
+</body></html>

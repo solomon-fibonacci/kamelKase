@@ -1,0 +1,93 @@
+@-webkit-keyframes animate-hover-transition {
+    from {
+      color: white;
+    }
+
+    to {
+      color: green;
+    }
+}
+
+@-webkit-keyframes animate-color-transition {
+    from {
+      color: green;
+    }
+
+    to {
+      color: white;
+    }
+}
+
+
+a {
+  -webkit-animation: animate-color-transition 0.2s ease-in !important; /* Chrome, Safari, Opera */
+  -webkit-animation-fill-mode: forwards !important;
+}
+
+a:hover {
+  -webkit-animation: animate-hover-transition 0.2s ease-in !important; /* Chrome, Safari, Opera */
+  -webkit-animation-fill-mode: forwards !important;
+}
+
+.cool-font{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a .email:hover, a[class="project-planner-button button"]:hover{
+  color:white !important;
+}
+
+ul li[class="override-icon"]{
+  background-color: white!important;
+  border-radius: 30px;
+}
+
+.text-margin{
+  margin-left: 10px !important;
+}
+
+div[class="main-nav-cta nav-links"] a[class="cool-font hover-button"]:hover{
+  background-color: white !important;
+  color: white !important;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.home-intro {
+  background-image: url('Avq7e05ngPdK3wf0XxvKaywr900Orbmgizu3OmNtz1aZ.jpg');
+}
+
+
+/*############################################################################
+
+form styling
+###########################################################################*/
+
+.form-field {
+  background-color: lightgray !important;
+  border-radius: 5px !important;
+  border: none !important;
+  color: black !important;
+}
+
+
+::-webkit-input-placeholder {
+   color: #888;
+   font-family: sans-serif;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #888;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #888;  
+}
+
+:-ms-input-placeholder {  
+   color: #888;  
+}
+
+button[type="submit"] {
+  margin-top: 5px;
+}
